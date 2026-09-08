@@ -7,7 +7,7 @@ name = "datapilot-agent"
 version = "0.1.0"
 description = "An auditable enterprise analytics and data development agent"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115,<1",
   "langgraph>=0.2,<1",
