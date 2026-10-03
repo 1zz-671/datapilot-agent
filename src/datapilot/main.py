@@ -1,7 +1,12 @@
 from fastapi import FastAPI
 
+
+from datapilot.config import get_settings
+
+settings = get_settings()
+
 app = FastAPI(
-    title="DataPilot API",
+    title=settings.app_name,
     version="0.1.0",
 )
 
